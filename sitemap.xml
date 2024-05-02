@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://www.tedhu.work/about/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://www.tedhu.work/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://www.tedhu.work/categories/</loc>
   </url><url>
-    <loc>https://example.com/series/</loc>
+    <loc>https://www.tedhu.work/series/</loc>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://www.tedhu.work/tags/</loc>
   </url>
 </urlset>

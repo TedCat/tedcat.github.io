@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>T3dC4t-blog</title>
-    <link>https://example.com/</link>
+    <link>https://www.tedhu.work/</link>
     <description>Recent content on T3dC4t-blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.tedhu.work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://www.tedhu.work/about/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/about/</guid>
+      <guid>https://www.tedhu.work/about/</guid>
       <description>About Me 断断续续在不同的平台上写过一些blog，2024年4月29日，心血来潮，决定在github上搭一个自己的地方 做了13年运维工作，机房上架爬机柜拉网线装系统，到AWS、阿里云，再写写代码 </description>
     </item>
   </channel>
