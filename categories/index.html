@@ -115,6 +115,16 @@
             
             <div class="submenu">
                 <li class="dropdown">
+                    <a href="https://www.tedhu.work/tags/">
+                        Tags
+                    </a>
+                </li>
+            </div>
+            
+        
+            
+            <div class="submenu">
+                <li class="dropdown">
                     <a href="https://www.tedhu.work/about/">
                         About
                     </a>
@@ -194,6 +204,58 @@
             </div>
           
         </div>
+        <span id="busuanzi_container_site_pv">
+            pv <span id="busuanzi_value_site_pv"></span>
+        </span>
+        &nbsp;|&nbsp;
+        <span id="busuanzi_container_site_uv">
+            uv <span id="busuanzi_value_site_uv"></span>
+        </span>
+        </br>
+
+        <script>
+            function siteTime() {
+                var seconds = 1000;
+                var minutes = seconds * 60;
+                var hours = minutes * 60;
+                var days = hours * 24;
+                var years = days * 365;
+                var today = new Date();
+                var startYear = 2024;
+                var startMonth = 5;
+                var startDate = 2;
+                var startHour = 18;
+                var startMinute = 0;
+                var startSecond = 0;
+                var todayYear = today.getFullYear();
+                var todayMonth = today.getMonth() + 1;
+                var todayDate = today.getDate();
+                var todayHour = today.getHours();
+                var todayMinute = today.getMinutes();
+                var todaySecond = today.getSeconds();
+                var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                var diff = t2 - t1;
+                var diffYears = Math.floor(diff / years);
+                var diffDays = Math.floor((diff / days) - diffYears * 365);
+                var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                    minutes);
+                var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                    diffMinutes * minutes) / seconds);
+                if (startYear == todayYear) {
+                    
+                    document.getElementById("sitetime").innerHTML = "run for " + diffDays + " days " + diffHours +
+                        " hours " + diffMinutes + " mins " + diffSeconds + " secs";
+                } else {
+                    
+                    document.getElementById("sitetime").innerHTML = "run for " + diffYears + " years " + diffDays +
+                        " days " + diffHours + " hours " + diffMinutes + " mins " + diffSeconds + " secs";
+                }
+            }
+            setInterval(siteTime, 1000);
+        </script>
+        <span id="sitetime">载入运行时间...</span></div>
 </footer>
 
             

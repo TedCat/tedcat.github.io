@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>T3dC4t-blog</title>
-    <link>https://www.tedhu.work/</link>
-    <description>Recent content on T3dC4t-blog</description>
+    <title>Blog on T3dC4t-blog</title>
+    <link>https://www.tedhu.work/tags/blog/</link>
+    <description>Recent content in Blog on T3dC4t-blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 02 May 2024 17:35:39 +0800</lastBuildDate>
-    <atom:link href="https://www.tedhu.work/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.tedhu.work/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>还是搭起了独立站</title>
       <link>https://www.tedhu.work/posts/2024/05/%E8%BF%98%E6%98%AF%E6%90%AD%E8%B5%B7%E4%BA%86%E7%8B%AC%E7%AB%8B%E7%AB%99/</link>
       <pubDate>Thu, 02 May 2024 17:35:39 +0800</pubDate>
       <guid>https://www.tedhu.work/posts/2024/05/%E8%BF%98%E6%98%AF%E6%90%AD%E8%B5%B7%E4%BA%86%E7%8B%AC%E7%AB%8B%E7%AB%99/</guid>
       <description>随着年龄的增长，还是希望有一块自留地，哪天蓦然回首，可以嘲笑一番以前的自己。 想了一下以前用过的，类博客的平台 qzone，第一个蹦出来的名字，</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://www.tedhu.work/about/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.tedhu.work/about/</guid>
-      <description>About Me 断断续续在不同的平台上写过一些blog，2024年4月29日，心血来潮，决定在github上搭一个自己的地方 做了13年运维工作，机房上架</description>
     </item>
   </channel>
 </rss>
