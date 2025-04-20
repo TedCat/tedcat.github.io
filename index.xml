@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 16:40:11 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.tedhu.work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cheat sheet</title>
+      <link>https://www.tedhu.work/cheat_sheet/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.tedhu.work/cheat_sheet/</guid>
+      <description>Cheat sheet 记录平时可能用到的，有点tricky的命令 jq ## get specify region ip-range in aws ip-ranges json cat ip-ranges.json| jq -r &amp;#39;.prefixes[] | select(.ip_prefix != null and .region == &amp;#34;ap-southeast-1&amp;#34;)| [.ip_prefix, .region, .service, .network_border_group] | @csv&amp;#39; k8s run temporary pods ## node selector/tolerations/pullSecret kubectl run tmp-shell --rm -i --tty --image travelping/nettools \ --overrides=&amp;#39;{ &amp;#34;spec&amp;#34;:</description>
+    </item>
     <item>
       <title>Why I Writing This</title>
       <link>https://www.tedhu.work/posts/2025/01/why-i-writing-this/</link>
